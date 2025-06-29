@@ -69,7 +69,8 @@ pip install -r requirements.txt
 
 ### 🧾 예시
 
-``bash
+```bash
+
 feat(sql): add base schema for customers and orders
 
 feat(plsql): add procedure to calculate customer total amount
