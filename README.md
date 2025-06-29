@@ -44,3 +44,34 @@ pip install -r requirements.txt
 - ETL: Pentaho, FastAPI, Docker
 - BI: Tableau
 - Cloud: GCP BigQuery
+
+---
+
+## 📝 Git 커밋 메시지 규칙
+
+이 프로젝트는 [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) 스타일을 참고하여 커밋 메시지를 작성합니다.
+
+### ✅ 커밋 메시지 템플릿
+- `타입`: 작업의 성격
+- `영역`: 작업한 폴더 또는 기능
+- `변경 요약`: 어떤 내용을 추가/수정/삭제했는지 명확하게
+
+### 📌 주요 커밋 타입
+
+| 타입 | 의미 |
+|------|------|
+| `feat` | 기능 추가 (새로운 SQL, 프로시저, 분석 기능 등) |
+| `fix` | 버그 수정 (쿼리 조건 오류, 로직 수정 등) |
+| `docs` | 문서 수정 (README, 주석 등) |
+| `refactor` | 리팩토링 (로직 변경 없이 구조 개선) |
+| `chore` | 설정, 폴더, 환경 구성 변경 |
+| `test` | 테스트 코드 추가 또는 변경 |
+
+### 🧾 예시
+
+``bash
+feat(sql): add base schema for customers and orders
+feat(plsql): add procedure to calculate customer total amount
+docs(readme): add commit message convention section
+refactor(etl): restructure ETL script for modularity
+---
