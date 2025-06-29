@@ -71,7 +71,11 @@ pip install -r requirements.txt
 
 ``bash
 feat(sql): add base schema for customers and orders
+
 feat(plsql): add procedure to calculate customer total amount
+
 docs(readme): add commit message convention section
+
 refactor(etl): restructure ETL script for modularity
+
 ---
