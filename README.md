@@ -20,7 +20,7 @@
 
 ```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 📌 주요 프로젝트
@@ -78,5 +78,5 @@ feat(plsql): add procedure to calculate customer total amount
 docs(readme): add commit message convention section
 
 refactor(etl): restructure ETL script for modularity
-
+```
 ---
