@@ -18,7 +18,7 @@
 
 ## 💾 설치 방법
 
-```bash
+``bash
 pip install -r requirements.txt
 
 ---
